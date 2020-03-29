@@ -25,7 +25,7 @@ public class RegexUtils {
     public static final String REGEX_USERNAME = "^[\\w\\u4e00-\\u9fa5]{6,20}(?<!_)$";
 
 
-    public static final String REGEX_SYMBOL="[`~!@#$%^&*()_\\-+=|{}':;',\\[\\].<>/?~！@#￥%……&*（）——+|{}【】‘；：”“’。，、？]";
+    public static final String REGEX_SYMBOL="[`~!@#$%^&*()_\\-+=|{}':;',\\[\\].<>/?~！@#￥%……&*（）——+|{}【】‘；：”“’。，、？\"《》]";
 
     private RegexUtils() {
         throw new UnsupportedOperationException("u can't instantiate me...");
